@@ -1,0 +1,43 @@
+@charset "EUC-KR";
+/*사이드*/
+#section_aside {
+	width: 15%;
+	display: table-cell;
+	float: left;
+	padding: 10px;
+}
+
+aside {
+	width: 100%;
+	background-color: #de9dff;
+	float: left;
+}
+
+#nav_ul div {
+	text-align: center;
+	background-color: #ffffff;
+	padding: 10px;
+}
+/*상 우 하 왼*/
+ul {
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+/*사이드 클릭 이벤트 처리 클래스*/
+.category_li {
+	background-color: #de9dff;
+}
+
+.cate_active {
+	background-color: #AAFF9D;
+}
+/*p_search, p_view*/
+/*#result_cate {
+	width: 50%;
+	display: none;
+}*/

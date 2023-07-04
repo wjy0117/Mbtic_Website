@@ -1,0 +1,45 @@
+@charset "EUC-KR";
+
+
+
+/*³×ºñ*/
+nav {
+	width: 100%;
+	height: auto;
+	color: white;
+	background: #9ddeff;
+	font-weight: bold;
+}
+
+nav div {
+	display: table;
+	width: 100%;
+}
+
+#nav_ul {
+	display: table-cell;
+	width: 60%;
+	height: 100%;
+	line-height: 50px;
+}
+
+#nav_span {
+	display: table-cell;
+	width: 40%;
+	line-height: 50px;
+}
+
+#nav_ul ul {
+	text-align: left;
+}
+
+#nav_ul ul li {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#nav_stat span {
+	display: table-cell;
+	text-align: center;
+}

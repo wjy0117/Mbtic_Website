@@ -1,0 +1,25 @@
+@charset "EUC-KR";
+
+/**/
+.Line {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*nav 또는 side 클릭시 색변경 이벤트 처리*/
+.Category_li {
+	background-color: #9ddeff;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+
+.Cate_active {
+	background-color: #AAFF9D;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

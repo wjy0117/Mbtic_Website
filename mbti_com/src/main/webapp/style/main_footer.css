@@ -1,0 +1,12 @@
+@charset "EUC-KR";
+
+/*г╙ем*/
+footer {
+	border: dashed;
+	width: 100%;
+	height: auto;
+	background-color: #de9dff;
+	text-align: center;
+	padding: 10px;
+	font-size: smaller;
+}
